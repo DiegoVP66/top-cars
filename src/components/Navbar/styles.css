@@ -1,0 +1,27 @@
+.main-nav {
+  background-color: #f78b00;
+  padding: 10px 0 0 10px;
+  min-height: 70px;
+}
+
+.main-nav h1 {
+    font-size: 24px;
+  }
+
+.main-menu {
+  font-size: 18px;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+}
+
+@media (min-width: 767px) {
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-left: auto;
+    align-items: center;
+  }
+}
