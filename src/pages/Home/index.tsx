@@ -26,7 +26,7 @@ const Home = () => {
           <div className="home-card-catalog">
             <div className="home-content-catalog">
               <a href="link">
-                <Button />
+                <Button text="VER CATÁLOGO" />
               </a>
             </div>
             <div className="home-card-link">

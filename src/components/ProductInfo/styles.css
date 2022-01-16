@@ -1,0 +1,11 @@
+.product-info-container {
+  margin-top: 18px;
+  font-size: 12px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.info-product p {
+  width: 255px;
+}

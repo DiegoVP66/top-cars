@@ -1,0 +1,25 @@
+.catalog-container {
+  padding: 30px 20px 30px 20px;
+}
+
+.catalog-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 123px;
+}
+
+.catalog-card input {
+  margin-left: 10px;
+  padding-left: 10px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px 0 0 5px;
+  color: #a7a7a7;
+  border: none;
+}
+
+.adjust-btn .btn-catalog {
+  border-radius: 0 5px 5px 0;
+  width: 90px;
+}

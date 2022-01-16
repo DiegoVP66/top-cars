@@ -1,0 +1,29 @@
+.product-card {
+  text-align: center;
+}
+
+.card-top-container {
+  margin-bottom: 8px;
+}
+
+.card-top-container img {
+  width: 220px;
+  height: 165px;
+}
+
+.card-mid-container {
+  margin-bottom: 30px;
+}
+
+.card-mid-container h1 {
+  font-size: 18px;
+}
+
+.card-bottom-container {
+  padding-bottom: 10px;
+}
+
+.card-bottom-container .btn-catalog {
+  width: 220px;
+  height: 40px;
+}

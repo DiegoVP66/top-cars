@@ -3,6 +3,7 @@
     height: 40px;
     background: #00285f;
     border-radius: 5px;
+    border: none;
   }
   .btn-catalog h1 {
       font-size: 14px;

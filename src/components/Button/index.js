@@ -1,9 +1,9 @@
-import './styles.css';
+import "./styles.css";
 
-const Button = () => {
+const Button = ({ text }) => {
   return (
     <button className="btn-catalog">
-      <h1>VER CATÁLOGO</h1>
+      <h1>{text}</h1>
     </button>
   );
 };
