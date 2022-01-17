@@ -1,4 +1,3 @@
-import Navbar from "components/Navbar";
 import ProductCard from "components/ProductCard";
 import Search from "components/Search";
 
@@ -7,7 +6,6 @@ import "./styles.css";
 const Catalog = () => {
   return (
     <>
-      <Navbar />
       <div>
         <Search />
       </div>
