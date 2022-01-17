@@ -7,7 +7,7 @@ const Search = () => {
     <>
       <div className="catalog-container">
         <div className="base-card catalog-card">
-          <div>
+          <div className="text-content-container">
             <input type="text" placeholder="Digite sua busca" />
           </div>
           <div className="adjust-btn">

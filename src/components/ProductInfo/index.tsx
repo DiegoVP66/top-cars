@@ -1,12 +1,10 @@
 import "./styles.css";
-const ProductInfo = () => {
+
+const ProductInfo = ({ text }: any) => {
   return (
     <div className="product-info-container">
       <div className="info-product">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
-          nisi
-        </p>
+        <p>{text}</p>
       </div>
     </div>
   );

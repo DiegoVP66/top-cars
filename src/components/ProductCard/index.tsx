@@ -1,6 +1,7 @@
 import CarCardImage from "assets/images/cardcar.png";
 import Button from "components/Button";
 import ProductInfo from "components/ProductInfo";
+import ProductName from "components/ProductName";
 import "./styles.css";
 
 const ProductCard = () => {
@@ -11,8 +12,12 @@ const ProductCard = () => {
           <img src={CarCardImage} alt="card-produto-carro" />
         </div>
         <div className="card-mid-container">
-          <h1>Audi Supra TT</h1>
-          <ProductInfo />
+          <ProductName text="Audi Supra TT" />
+          <ProductInfo
+            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          nisi"
+          />
+
           <div className="card-bottom-container">
             <Button text="COMPRAR" />
           </div>
